@@ -20,18 +20,18 @@
 	        <Button 
 	            android:layout_width="match_parent"
 	            android:layout_height="wrap_content" 
-	            android:id="@+id/btn1"
-	            android:text="@string/btn1"/>
+	            android:id="@+id/btnActivity"
+	            android:text="@string/btnAct"/>
 	        <Button 
 	            android:layout_width="match_parent"
 	            android:layout_height="wrap_content" 
-	            android:id="@+id/btn2"
-	            android:text="@string/btn2"/>
+	            android:id="@+id/btnAnotherFragment"
+	            android:text="@string/btnAFrag"/>
 	        <Button 
 	            android:layout_width="match_parent"
 	            android:layout_height="wrap_content" 
-	            android:id="@+id/btn3"
-	            android:text="@string/btn3"/>
+	            android:id="@+id/btnCamera"
+	            android:text="@string/btnCam"/>
 	    </LinearLayout>
 	    <LinearLayout
 	        android:layout_width="0dp"
@@ -41,26 +41,25 @@
 	        <Button 
 	            android:layout_width="match_parent"
 	            android:layout_height="wrap_content" 
-	            android:id="@+id/btn4"
-	            android:text="@string/btn4"/>
+	            android:id="@+id/btnFragment"
+	            android:text="@string/btnFrag"/>
 	    	<Button 
 	            android:layout_width="match_parent"
 	            android:layout_height="wrap_content" 
-	            android:id="@+id/btn5"
-	            android:text="@string/btn5"/>
+	            android:id="@+id/btnNotificationToast"
+	            android:text="@string/btnNotToa"/>
 	    	<Button 
 	            android:layout_width="match_parent"
 	            android:layout_height="wrap_content" 
-	            android:id="@+id/btn6"
-	            android:text="@string/btn6"/>
+	            android:id="@+id/btnVibrate"
+	            android:text="@string/btnVib"/>
 	    </LinearLayout>
 	</LinearLayout>
 	
     
-   <fragment android:name="com.example.oblig2.MainFragment"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:layout_above="@id/llButtons"
-        android:id="@+id/fragmentMain" />
+   <FrameLayout android:layout_above="@+id/llButtons"
+    			android:id="@+id/fragment_container"
+   				android:layout_width="match_parent"
+   				android:layout_height="match_parent"/>
    
 </RelativeLayout>

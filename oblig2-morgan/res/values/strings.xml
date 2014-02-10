@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Oblig2</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="btnAct">Start Activity</string>
+    <string name="btnFrag">Add Fragment</string>
+    <string name="btnAFrag">Add another Fragment</string>
+    <string name="btnNotToa">Notification / Toast</string>
+    <string name="btnCam">Camera</string>
+    <string name="btnVib">Vibrate</string>
+    <string name="loremParagraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer quis hendrerit nisl, vitae auctor augue. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Sed sed urna tincidunt, tristique felis sed, gravida metus. Vestibulum dapibus cursus dolor quis sodales. Integer pretium, massa sit amet sollicitudin laoreet, ligula eros facilisis nunc, eu rhoncus sapien odio non mi. Suspendisse consectetur dui at dolor auctor, vel vulputate neque gravida. Proin ac est malesuada, egestas quam et, rutrum velit. Aenean eu lacinia massa, ac elementum metus. Proin laoreet felis sem, vitae eleifend eros pulvinar ut. Nam tincidunt auctor mi, at commodo orci mollis sit amet.</string>
+
+</resources>
